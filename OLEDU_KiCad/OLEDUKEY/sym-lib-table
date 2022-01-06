@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name key)(type Legacy)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/Button_Switch_Keyboard.pretty)(options "")(descr ""))
+  (lib (name oled_display)(type Legacy)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/diymore242display-master/2.42oled.lib)(options "")(descr ""))
+  (lib (name diylib)(type Legacy)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/diymore242display-master/diymore.lib)(options "")(descr ""))
+)

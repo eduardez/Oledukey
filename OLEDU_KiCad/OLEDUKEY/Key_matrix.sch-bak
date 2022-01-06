@@ -1,0 +1,3166 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 3 3
+Title "Switches"
+Date "2021-12-06"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 850  6000 0    50   Output ~ 0
+ROW5
+Wire Wire Line
+	4950 3100 4950 3050
+Connection ~ 4950 3100
+Wire Wire Line
+	4850 3100 4950 3100
+Wire Wire Line
+	11000 3100 11000 3050
+Connection ~ 11000 3100
+Wire Wire Line
+	10900 3100 11000 3100
+Wire Wire Line
+	15000 3100 15000 3050
+Wire Wire Line
+	15000 3100 15600 3100
+Connection ~ 15000 3100
+Wire Wire Line
+	14900 3100 15000 3100
+Text Label 15550 5500 0    50   ~ 10
+LEFT
+Text Label 15450 4750 0    50   ~ 10
+PGDOWN
+Text Label 15550 4000 0    50   ~ 10
+PGUP
+Text Label 15600 3300 0    50   ~ 10
+Ñ
+Text Label 15450 2600 0    50   ~ 10
+CUSTOM
+Text Label 15500 1850 0    50   ~ 10
+DELETE
+Text Label 14500 5500 0    50   ~ 10
+DOWN
+Text Label 14550 4750 0    50   ~ 10
+UP
+Text Label 14500 4000 0    50   ~ 10
+ENTER
+Text Label 14600 3300 0    50   ~ 10
+\
+Text Label 14550 2600 0    50   ~ 10
+BACK
+Text Label 14550 1850 0    50   ~ 10
+END
+Text Label 13600 4000 0    50   ~ 10
+]
+Text Label 13600 3300 0    50   ~ 10
+=
+Text Label 13550 2600 0    50   ~ 10
+INI
+Text Label 13600 1850 0    50   ~ 10
+F12
+Text Label 12550 5500 0    50   ~ 10
+<-
+Text Label 12550 4750 0    50   ~ 10
+SHIFT
+Text Label 12600 4000 0    50   ~ 10
+"
+Text Label 12600 3300 0    50   ~ 10
+[
+Text Label 12600 2600 0    50   ~ 10
+_
+Text Label 12600 1850 0    50   ~ 10
+F11
+Text Label 11600 5500 0    50   ~ 10
+CTRL
+Text Label 11600 4750 0    50   ~ 10
+?
+Text Label 11600 4000 0    50   ~ 10
+;
+Text Label 11600 3300 0    50   ~ 10
+P
+Text Label 11600 2600 0    50   ~ 10
+0
+Text Label 11600 1850 0    50   ~ 10
+F10
+Text Label 10600 5500 0    50   ~ 10
+Fn
+Text Label 10600 4750 0    50   ~ 10
+>
+Text Label 10600 4000 0    50   ~ 10
+L
+Text Label 10600 3300 0    50   ~ 10
+O
+Text Label 10600 2600 0    50   ~ 10
+9
+Text Label 10600 1850 0    50   ~ 10
+F9
+Text Label 9600 5500 0    50   ~ 10
+ALT
+Text Label 9600 4750 0    50   ~ 10
+<
+Text Label 9600 4000 0    50   ~ 10
+K
+Text Label 9600 3300 0    50   ~ 10
+I
+Text Label 9600 2600 0    50   ~ 10
+8
+Text Label 9600 1850 0    50   ~ 10
+F8
+Text Label 8550 4750 0    50   ~ 10
+M
+Text Label 8550 4000 0    50   ~ 10
+J
+Text Label 8550 3300 0    50   ~ 10
+U
+Text Label 8550 2600 0    50   ~ 10
+7
+Text Label 8550 1850 0    50   ~ 10
+F7
+Text Label 7550 4750 0    50   ~ 10
+N
+Text Label 7550 4000 0    50   ~ 10
+H
+Text Label 7550 3300 0    50   ~ 10
+Y
+Text Label 7550 2600 0    50   ~ 10
+6
+Text Label 7550 1850 0    50   ~ 10
+F6
+Text Label 6450 5500 0    50   ~ 10
+SPACE
+Text Label 6550 4750 0    50   ~ 10
+B
+Text Label 6550 4000 0    50   ~ 10
+G
+Text Label 6550 3300 0    50   ~ 10
+T
+Text Label 6550 2600 0    50   ~ 10
+5
+Text Label 6550 1850 0    50   ~ 10
+F5
+Text Label 5550 4750 0    50   ~ 10
+V
+Text Label 5550 4000 0    50   ~ 10
+F
+Text Label 5550 3300 0    50   ~ 10
+R
+Text Label 5550 2600 0    50   ~ 10
+4
+Text Label 5550 1850 0    50   ~ 10
+F4
+Text Label 4550 4750 0    50   ~ 10
+C
+Text Label 4550 4000 0    50   ~ 10
+D
+Text Label 4550 3300 0    50   ~ 10
+E
+Text Label 4550 2600 0    50   ~ 10
+3
+Text Label 4550 1850 0    50   ~ 10
+F3
+Text Label 3500 5500 0    50   ~ 10
+ALT
+Text Label 3550 4750 0    50   ~ 10
+X
+Text Label 3550 4000 0    50   ~ 10
+S
+Text Label 3550 3300 0    50   ~ 10
+W
+Text Label 3550 2600 0    50   ~ 10
+2
+Text Label 3550 1850 0    50   ~ 10
+F2
+Text Label 2500 5500 0    50   ~ 10
+WIN
+Text Label 2550 4750 0    50   ~ 10
+Z
+Text Label 2550 4000 0    50   ~ 10
+A
+Text Label 2550 3300 0    50   ~ 10
+Q
+Text Label 2550 2600 0    50   ~ 10
+1
+Text Label 2550 1850 0    50   ~ 10
+F1
+Text Label 1500 5500 0    50   ~ 10
+CTRL
+Text Label 1500 4800 0    50   ~ 10
+SHIFT
+Text Label 1500 4000 0    50   ~ 10
+CAPS
+Text Label 1500 3300 0    50   ~ 10
+TAB
+Text Label 1550 1800 0    50   ~ 10
+ESC
+Wire Wire Line
+	16350 1650 16350 2100
+Wire Wire Line
+	16150 2100 16350 2100
+Wire Wire Line
+	16100 2100 16150 2100
+Connection ~ 16150 2100
+$Comp
+L Switch:SW_Push SW85
+U 1 1 6315A9E3
+P 15950 2100
+F 0 "SW85" H 15950 2385 50  0000 C CNN
+F 1 "SW_Push" H 15950 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 15950 2293 50  0001 C CNN
+F 3 "~" H 15950 2300 50  0001 C CNN
+	1    15950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 2800 15750 2800
+Wire Wire Line
+	15600 2850 15600 2800
+Wire Wire Line
+	15600 2100 15750 2100
+Wire Wire Line
+	15600 2150 15600 2100
+Wire Wire Line
+	15600 3500 15750 3500
+Wire Wire Line
+	15600 3550 15600 3500
+Wire Wire Line
+	15600 4200 15750 4200
+Wire Wire Line
+	15600 5000 15750 5000
+Wire Wire Line
+	15600 5050 15600 5000
+Wire Wire Line
+	15600 5700 15750 5700
+Wire Wire Line
+	16150 5700 16100 5700
+Wire Wire Line
+	16350 5700 16150 5700
+Connection ~ 16150 5700
+$Comp
+L Switch:SW_Push SW90
+U 1 1 6315A806
+P 15950 5700
+F 0 "SW90" H 15950 5985 50  0000 C CNN
+F 1 "SW_Push" H 15950 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 15950 5893 50  0001 C CNN
+F 3 "~" H 15950 5900 50  0001 C CNN
+	1    15950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16150 5000 16350 5000
+Wire Wire Line
+	16100 5000 16150 5000
+Connection ~ 16150 5000
+$Comp
+L Switch:SW_Push SW89
+U 1 1 6315A7FC
+P 15950 5000
+F 0 "SW89" H 15950 5285 50  0000 C CNN
+F 1 "SW_Push" H 15950 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 15950 5193 50  0001 C CNN
+F 3 "~" H 15950 5200 50  0001 C CNN
+	1    15950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16150 4200 16350 4200
+Wire Wire Line
+	16100 4200 16150 4200
+Connection ~ 16150 4200
+$Comp
+L Switch:SW_Push SW88
+U 1 1 6315A7F2
+P 15950 4200
+F 0 "SW88" H 15950 4485 50  0000 C CNN
+F 1 "SW_Push" H 15950 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 15950 4393 50  0001 C CNN
+F 3 "~" H 15950 4400 50  0001 C CNN
+	1    15950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16150 3500 16350 3500
+Wire Wire Line
+	16100 3500 16150 3500
+Connection ~ 16150 3500
+$Comp
+L Switch:SW_Push SW87
+U 1 1 6315A7E8
+P 15950 3500
+F 0 "SW87" H 15950 3785 50  0000 C CNN
+F 1 "SW_Push" H 15950 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 15950 3693 50  0001 C CNN
+F 3 "~" H 15950 3700 50  0001 C CNN
+	1    15950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16150 2800 16350 2800
+Wire Wire Line
+	16100 2800 16150 2800
+Connection ~ 16150 2800
+$Comp
+L Switch:SW_Push SW86
+U 1 1 6315A7DE
+P 15950 2800
+F 0 "SW86" H 15950 3085 50  0000 C CNN
+F 1 "SW_Push" H 15950 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 15950 2993 50  0001 C CNN
+F 3 "~" H 15950 3000 50  0001 C CNN
+	1    15950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 1650 15350 2100
+Wire Wire Line
+	15150 2100 15350 2100
+Wire Wire Line
+	15100 2100 15150 2100
+Connection ~ 15150 2100
+$Comp
+L Switch:SW_Push SW79
+U 1 1 6315A6B2
+P 14950 2100
+F 0 "SW79" H 14950 2385 50  0000 C CNN
+F 1 "SW_Push" H 14950 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 14950 2293 50  0001 C CNN
+F 3 "~" H 14950 2300 50  0001 C CNN
+	1    14950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 2800 14750 2800
+Wire Wire Line
+	14600 2850 14600 2800
+Wire Wire Line
+	14600 2100 14750 2100
+Wire Wire Line
+	14600 2150 14600 2100
+Wire Wire Line
+	14600 3500 14750 3500
+Wire Wire Line
+	14600 3550 14600 3500
+Wire Wire Line
+	14600 4200 14750 4200
+Wire Wire Line
+	14600 5000 14750 5000
+Wire Wire Line
+	14600 5050 14600 5000
+Wire Wire Line
+	14600 5750 14600 5700
+Wire Wire Line
+	15150 5700 15100 5700
+Wire Wire Line
+	15350 5700 15150 5700
+Connection ~ 15150 5700
+Wire Wire Line
+	14750 5700 14850 5700
+Wire Wire Line
+	14600 5700 14750 5700
+Connection ~ 14750 5700
+$Comp
+L Switch:SW_Push SW84
+U 1 1 6315A5C8
+P 14950 5700
+F 0 "SW84" H 14950 5985 50  0000 C CNN
+F 1 "SW_Push" H 14950 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 14950 5893 50  0001 C CNN
+F 3 "~" H 14950 5900 50  0001 C CNN
+	1    14950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 5000 15350 5000
+Wire Wire Line
+	15100 5000 15150 5000
+Connection ~ 15150 5000
+$Comp
+L Switch:SW_Push SW83
+U 1 1 6315A5BE
+P 14950 5000
+F 0 "SW83" H 14950 5285 50  0000 C CNN
+F 1 "SW_Push" H 14950 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 14950 5193 50  0001 C CNN
+F 3 "~" H 14950 5200 50  0001 C CNN
+	1    14950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 4200 15350 4200
+Wire Wire Line
+	15100 4200 15150 4200
+Connection ~ 15150 4200
+$Comp
+L Switch:SW_Push SW82
+U 1 1 6315A5B4
+P 14950 4200
+F 0 "SW82" H 14950 4485 50  0000 C CNN
+F 1 "SW_Push" H 14950 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_2.25u_PCB" H 14950 4393 50  0001 C CNN
+F 3 "~" H 14950 4400 50  0001 C CNN
+	1    14950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 3500 15350 3500
+Wire Wire Line
+	15100 3500 15150 3500
+Connection ~ 15150 3500
+$Comp
+L Switch:SW_Push SW81
+U 1 1 6315A5AA
+P 14950 3500
+F 0 "SW81" H 14950 3785 50  0000 C CNN
+F 1 "SW_Push" H 14950 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.50u_PCB" H 14950 3693 50  0001 C CNN
+F 3 "~" H 14950 3700 50  0001 C CNN
+	1    14950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 2800 15350 2800
+Wire Wire Line
+	15100 2800 15150 2800
+Connection ~ 15150 2800
+$Comp
+L Switch:SW_Push SW80
+U 1 1 6315A5A0
+P 14950 2800
+F 0 "SW80" H 14950 3085 50  0000 C CNN
+F 1 "SW_Push" H 14950 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_2.00u_PCB" H 14950 2993 50  0001 C CNN
+F 3 "~" H 14950 3000 50  0001 C CNN
+	1    14950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14350 1650 14350 2100
+Wire Wire Line
+	14150 2100 14350 2100
+Wire Wire Line
+	14100 2100 14150 2100
+Connection ~ 14150 2100
+$Comp
+L Switch:SW_Push SW73
+U 1 1 6315A4D7
+P 13950 2100
+F 0 "SW73" H 13950 2385 50  0000 C CNN
+F 1 "SW_Push" H 13950 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 13950 2293 50  0001 C CNN
+F 3 "~" H 13950 2300 50  0001 C CNN
+	1    13950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 2800 13750 2800
+Wire Wire Line
+	13600 2850 13600 2800
+Wire Wire Line
+	13600 2100 13750 2100
+Wire Wire Line
+	13600 2150 13600 2100
+Wire Wire Line
+	13600 3500 13750 3500
+Wire Wire Line
+	13600 3550 13600 3500
+Wire Wire Line
+	13600 4200 13750 4200
+Wire Wire Line
+	14150 4200 14350 4200
+Wire Wire Line
+	14100 4200 14150 4200
+Connection ~ 14150 4200
+$Comp
+L Switch:SW_Push SW76
+U 1 1 6315A376
+P 13950 4200
+F 0 "SW76" H 13950 4485 50  0000 C CNN
+F 1 "SW_Push" H 13950 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 13950 4393 50  0001 C CNN
+F 3 "~" H 13950 4400 50  0001 C CNN
+	1    13950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 3500 14350 3500
+Wire Wire Line
+	14100 3500 14150 3500
+Connection ~ 14150 3500
+$Comp
+L Switch:SW_Push SW75
+U 1 1 6315A36C
+P 13950 3500
+F 0 "SW75" H 13950 3785 50  0000 C CNN
+F 1 "SW_Push" H 13950 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 13950 3693 50  0001 C CNN
+F 3 "~" H 13950 3700 50  0001 C CNN
+	1    13950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 2800 14350 2800
+Wire Wire Line
+	14100 2800 14150 2800
+Connection ~ 14150 2800
+$Comp
+L Switch:SW_Push SW74
+U 1 1 6315A362
+P 13950 2800
+F 0 "SW74" H 13950 3085 50  0000 C CNN
+F 1 "SW_Push" H 13950 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 13950 2993 50  0001 C CNN
+F 3 "~" H 13950 3000 50  0001 C CNN
+	1    13950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13350 1650 13350 2100
+Wire Wire Line
+	13150 2100 13350 2100
+Wire Wire Line
+	13100 2100 13150 2100
+Connection ~ 13150 2100
+$Comp
+L Switch:SW_Push SW67
+U 1 1 6315A25C
+P 12950 2100
+F 0 "SW67" H 12950 2385 50  0000 C CNN
+F 1 "SW_Push" H 12950 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 12950 2293 50  0001 C CNN
+F 3 "~" H 12950 2300 50  0001 C CNN
+	1    12950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 2800 12750 2800
+Wire Wire Line
+	12600 2850 12600 2800
+Wire Wire Line
+	12600 2100 12750 2100
+Wire Wire Line
+	12600 2150 12600 2100
+Wire Wire Line
+	12600 3500 12750 3500
+Wire Wire Line
+	12600 3550 12600 3500
+Wire Wire Line
+	12600 4200 12750 4200
+Wire Wire Line
+	12600 5000 12750 5000
+Wire Wire Line
+	12600 5050 12600 5000
+Wire Wire Line
+	12600 5750 12600 5700
+Wire Wire Line
+	13150 5700 13100 5700
+Wire Wire Line
+	13350 5700 13150 5700
+Connection ~ 13150 5700
+Wire Wire Line
+	12750 5700 12850 5700
+Wire Wire Line
+	12600 5700 12750 5700
+Connection ~ 12750 5700
+$Comp
+L Switch:SW_Push SW72
+U 1 1 6315A142
+P 12950 5700
+F 0 "SW72" H 12950 5985 50  0000 C CNN
+F 1 "SW_Push" H 12950 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 12950 5893 50  0001 C CNN
+F 3 "~" H 12950 5900 50  0001 C CNN
+	1    12950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 5000 13350 5000
+Wire Wire Line
+	13100 5000 13150 5000
+Connection ~ 13150 5000
+$Comp
+L Switch:SW_Push SW71
+U 1 1 6315A138
+P 12950 5000
+F 0 "SW71" H 12950 5285 50  0000 C CNN
+F 1 "SW_Push" H 12950 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.75u_PCB" H 12950 5193 50  0001 C CNN
+F 3 "~" H 12950 5200 50  0001 C CNN
+	1    12950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 4200 13350 4200
+Wire Wire Line
+	13100 4200 13150 4200
+Connection ~ 13150 4200
+$Comp
+L Switch:SW_Push SW70
+U 1 1 6315A12E
+P 12950 4200
+F 0 "SW70" H 12950 4485 50  0000 C CNN
+F 1 "SW_Push" H 12950 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 12950 4393 50  0001 C CNN
+F 3 "~" H 12950 4400 50  0001 C CNN
+	1    12950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 3500 13350 3500
+Wire Wire Line
+	13100 3500 13150 3500
+Connection ~ 13150 3500
+$Comp
+L Switch:SW_Push SW69
+U 1 1 6315A124
+P 12950 3500
+F 0 "SW69" H 12950 3785 50  0000 C CNN
+F 1 "SW_Push" H 12950 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 12950 3693 50  0001 C CNN
+F 3 "~" H 12950 3700 50  0001 C CNN
+	1    12950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 2800 13350 2800
+Wire Wire Line
+	13100 2800 13150 2800
+Connection ~ 13150 2800
+$Comp
+L Switch:SW_Push SW68
+U 1 1 6315A11A
+P 12950 2800
+F 0 "SW68" H 12950 3085 50  0000 C CNN
+F 1 "SW_Push" H 12950 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 12950 2993 50  0001 C CNN
+F 3 "~" H 12950 3000 50  0001 C CNN
+	1    12950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 1650 12350 2100
+Wire Wire Line
+	12150 2100 12350 2100
+Wire Wire Line
+	12100 2100 12150 2100
+Connection ~ 12150 2100
+$Comp
+L Switch:SW_Push SW61
+U 1 1 6315A0E1
+P 11950 2100
+F 0 "SW61" H 11950 2385 50  0000 C CNN
+F 1 "SW_Push" H 11950 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 11950 2293 50  0001 C CNN
+F 3 "~" H 11950 2300 50  0001 C CNN
+	1    11950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 2800 11750 2800
+Wire Wire Line
+	11600 2850 11600 2800
+Wire Wire Line
+	11600 2100 11750 2100
+Wire Wire Line
+	11600 2150 11600 2100
+Wire Wire Line
+	11600 3500 11750 3500
+Wire Wire Line
+	11600 3550 11600 3500
+Wire Wire Line
+	11600 4200 11750 4200
+Wire Wire Line
+	11600 5000 11750 5000
+Wire Wire Line
+	11600 5050 11600 5000
+Wire Wire Line
+	11600 5750 11600 5700
+Wire Wire Line
+	12150 5700 12100 5700
+Wire Wire Line
+	12350 5700 12150 5700
+Connection ~ 12150 5700
+Wire Wire Line
+	11750 5700 11850 5700
+Wire Wire Line
+	11600 5700 11750 5700
+Connection ~ 11750 5700
+$Comp
+L Switch:SW_Push SW66
+U 1 1 63159F28
+P 11950 5700
+F 0 "SW66" H 11950 5985 50  0000 C CNN
+F 1 "SW_Push" H 11950 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 11950 5893 50  0001 C CNN
+F 3 "~" H 11950 5900 50  0001 C CNN
+	1    11950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 5000 12350 5000
+Wire Wire Line
+	12100 5000 12150 5000
+Connection ~ 12150 5000
+$Comp
+L Switch:SW_Push SW65
+U 1 1 63159F1E
+P 11950 5000
+F 0 "SW65" H 11950 5285 50  0000 C CNN
+F 1 "SW_Push" H 11950 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 11950 5193 50  0001 C CNN
+F 3 "~" H 11950 5200 50  0001 C CNN
+	1    11950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 4200 12350 4200
+Wire Wire Line
+	12100 4200 12150 4200
+Connection ~ 12150 4200
+$Comp
+L Switch:SW_Push SW64
+U 1 1 63159F14
+P 11950 4200
+F 0 "SW64" H 11950 4485 50  0000 C CNN
+F 1 "SW_Push" H 11950 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 11950 4393 50  0001 C CNN
+F 3 "~" H 11950 4400 50  0001 C CNN
+	1    11950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 3500 12350 3500
+Wire Wire Line
+	12100 3500 12150 3500
+Connection ~ 12150 3500
+$Comp
+L Switch:SW_Push SW63
+U 1 1 63159EE6
+P 11950 3500
+F 0 "SW63" H 11950 3785 50  0000 C CNN
+F 1 "SW_Push" H 11950 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 11950 3693 50  0001 C CNN
+F 3 "~" H 11950 3700 50  0001 C CNN
+	1    11950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 2800 12350 2800
+Wire Wire Line
+	12100 2800 12150 2800
+Connection ~ 12150 2800
+$Comp
+L Switch:SW_Push SW62
+U 1 1 63159EDC
+P 11950 2800
+F 0 "SW62" H 11950 3085 50  0000 C CNN
+F 1 "SW_Push" H 11950 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 11950 2993 50  0001 C CNN
+F 3 "~" H 11950 3000 50  0001 C CNN
+	1    11950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 1650 11350 2100
+Wire Wire Line
+	11150 2100 11350 2100
+Wire Wire Line
+	11100 2100 11150 2100
+Connection ~ 11150 2100
+$Comp
+L Switch:SW_Push SW55
+U 1 1 63159DE0
+P 10950 2100
+F 0 "SW55" H 10950 2385 50  0000 C CNN
+F 1 "SW_Push" H 10950 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 10950 2293 50  0001 C CNN
+F 3 "~" H 10950 2300 50  0001 C CNN
+	1    10950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 2800 10750 2800
+Wire Wire Line
+	10600 2850 10600 2800
+Wire Wire Line
+	10600 2100 10750 2100
+Wire Wire Line
+	10600 2150 10600 2100
+Wire Wire Line
+	10600 3500 10750 3500
+Wire Wire Line
+	10600 3550 10600 3500
+Wire Wire Line
+	10600 4200 10750 4200
+Wire Wire Line
+	10600 5000 10750 5000
+Wire Wire Line
+	10600 5050 10600 5000
+Wire Wire Line
+	10600 5750 10600 5700
+Wire Wire Line
+	11150 5700 11100 5700
+Wire Wire Line
+	11350 5700 11150 5700
+Connection ~ 11150 5700
+Wire Wire Line
+	10750 5700 10850 5700
+Wire Wire Line
+	10600 5700 10750 5700
+Connection ~ 10750 5700
+$Comp
+L Switch:SW_Push SW60
+U 1 1 63159CC6
+P 10950 5700
+F 0 "SW60" H 10950 5985 50  0000 C CNN
+F 1 "SW_Push" H 10950 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 10950 5893 50  0001 C CNN
+F 3 "~" H 10950 5900 50  0001 C CNN
+	1    10950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 5000 11350 5000
+Wire Wire Line
+	11100 5000 11150 5000
+Connection ~ 11150 5000
+$Comp
+L Switch:SW_Push SW59
+U 1 1 63159CBC
+P 10950 5000
+F 0 "SW59" H 10950 5285 50  0000 C CNN
+F 1 "SW_Push" H 10950 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 10950 5193 50  0001 C CNN
+F 3 "~" H 10950 5200 50  0001 C CNN
+	1    10950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 4200 11350 4200
+Wire Wire Line
+	11100 4200 11150 4200
+Connection ~ 11150 4200
+$Comp
+L Switch:SW_Push SW58
+U 1 1 63159CB2
+P 10950 4200
+F 0 "SW58" H 10950 4485 50  0000 C CNN
+F 1 "SW_Push" H 10950 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 10950 4393 50  0001 C CNN
+F 3 "~" H 10950 4400 50  0001 C CNN
+	1    10950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 3500 11350 3500
+Wire Wire Line
+	11100 3500 11150 3500
+Connection ~ 11150 3500
+$Comp
+L Switch:SW_Push SW57
+U 1 1 63159CA8
+P 10950 3500
+F 0 "SW57" H 10950 3785 50  0000 C CNN
+F 1 "SW_Push" H 10950 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 10950 3693 50  0001 C CNN
+F 3 "~" H 10950 3700 50  0001 C CNN
+	1    10950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 2800 11350 2800
+Wire Wire Line
+	11100 2800 11150 2800
+Connection ~ 11150 2800
+$Comp
+L Switch:SW_Push SW56
+U 1 1 63159C9E
+P 10950 2800
+F 0 "SW56" H 10950 3085 50  0000 C CNN
+F 1 "SW_Push" H 10950 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 10950 2993 50  0001 C CNN
+F 3 "~" H 10950 3000 50  0001 C CNN
+	1    10950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 1650 10350 2100
+Wire Wire Line
+	10150 2100 10350 2100
+Wire Wire Line
+	10100 2100 10150 2100
+Connection ~ 10150 2100
+$Comp
+L Switch:SW_Push SW49
+U 1 1 63159C65
+P 9950 2100
+F 0 "SW49" H 9950 2385 50  0000 C CNN
+F 1 "SW_Push" H 9950 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 9950 2293 50  0001 C CNN
+F 3 "~" H 9950 2300 50  0001 C CNN
+	1    9950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2800 9750 2800
+Wire Wire Line
+	9600 2850 9600 2800
+Wire Wire Line
+	9600 2100 9750 2100
+Wire Wire Line
+	9600 2150 9600 2100
+Wire Wire Line
+	9600 3500 9750 3500
+Wire Wire Line
+	9600 3550 9600 3500
+Wire Wire Line
+	9600 4200 9750 4200
+Wire Wire Line
+	9600 5000 9750 5000
+Wire Wire Line
+	9600 5050 9600 5000
+Wire Wire Line
+	9600 5750 9600 5700
+Wire Wire Line
+	10150 5700 10100 5700
+Wire Wire Line
+	10350 5700 10150 5700
+Connection ~ 10150 5700
+Wire Wire Line
+	9750 5700 9850 5700
+Wire Wire Line
+	9600 5700 9750 5700
+Connection ~ 9750 5700
+$Comp
+L Switch:SW_Push SW54
+U 1 1 63159A94
+P 9950 5700
+F 0 "SW54" H 9950 5985 50  0000 C CNN
+F 1 "SW_Push" H 9950 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 9950 5893 50  0001 C CNN
+F 3 "~" H 9950 5900 50  0001 C CNN
+	1    9950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 5000 10350 5000
+Wire Wire Line
+	10100 5000 10150 5000
+Connection ~ 10150 5000
+$Comp
+L Switch:SW_Push SW53
+U 1 1 63159A8A
+P 9950 5000
+F 0 "SW53" H 9950 5285 50  0000 C CNN
+F 1 "SW_Push" H 9950 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 9950 5193 50  0001 C CNN
+F 3 "~" H 9950 5200 50  0001 C CNN
+	1    9950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 4200 10350 4200
+Wire Wire Line
+	10100 4200 10150 4200
+Connection ~ 10150 4200
+$Comp
+L Switch:SW_Push SW52
+U 1 1 63159A80
+P 9950 4200
+F 0 "SW52" H 9950 4485 50  0000 C CNN
+F 1 "SW_Push" H 9950 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 9950 4393 50  0001 C CNN
+F 3 "~" H 9950 4400 50  0001 C CNN
+	1    9950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 3500 10350 3500
+Wire Wire Line
+	10100 3500 10150 3500
+Connection ~ 10150 3500
+$Comp
+L Switch:SW_Push SW51
+U 1 1 63159A76
+P 9950 3500
+F 0 "SW51" H 9950 3785 50  0000 C CNN
+F 1 "SW_Push" H 9950 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 9950 3693 50  0001 C CNN
+F 3 "~" H 9950 3700 50  0001 C CNN
+	1    9950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 2800 10350 2800
+Wire Wire Line
+	10100 2800 10150 2800
+Connection ~ 10150 2800
+$Comp
+L Switch:SW_Push SW50
+U 1 1 63158C7A
+P 9950 2800
+F 0 "SW50" H 9950 3085 50  0000 C CNN
+F 1 "SW_Push" H 9950 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 9950 2993 50  0001 C CNN
+F 3 "~" H 9950 3000 50  0001 C CNN
+	1    9950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1650 9300 2100
+Wire Wire Line
+	9100 2100 9300 2100
+Wire Wire Line
+	9050 2100 9100 2100
+Connection ~ 9100 2100
+$Comp
+L Switch:SW_Push SW43
+U 1 1 630F7B96
+P 8900 2100
+F 0 "SW43" H 8900 2385 50  0000 C CNN
+F 1 "SW_Push" H 8900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 8900 2293 50  0001 C CNN
+F 3 "~" H 8900 2300 50  0001 C CNN
+	1    8900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2800 8700 2800
+Wire Wire Line
+	8550 2850 8550 2800
+Wire Wire Line
+	8550 2100 8700 2100
+Wire Wire Line
+	8550 2150 8550 2100
+Wire Wire Line
+	8550 3500 8700 3500
+Wire Wire Line
+	8550 3550 8550 3500
+Wire Wire Line
+	8550 4200 8700 4200
+Wire Wire Line
+	8550 5000 8700 5000
+Wire Wire Line
+	8550 5050 8550 5000
+Wire Wire Line
+	9100 5000 9300 5000
+Wire Wire Line
+	9050 5000 9100 5000
+Connection ~ 9100 5000
+$Comp
+L Switch:SW_Push SW47
+U 1 1 630F7A71
+P 8900 5000
+F 0 "SW47" H 8900 5285 50  0000 C CNN
+F 1 "SW_Push" H 8900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 8900 5193 50  0001 C CNN
+F 3 "~" H 8900 5200 50  0001 C CNN
+	1    8900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4200 9300 4200
+Wire Wire Line
+	9050 4200 9100 4200
+Connection ~ 9100 4200
+$Comp
+L Switch:SW_Push SW46
+U 1 1 630F7A67
+P 8900 4200
+F 0 "SW46" H 8900 4485 50  0000 C CNN
+F 1 "SW_Push" H 8900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 8900 4393 50  0001 C CNN
+F 3 "~" H 8900 4400 50  0001 C CNN
+	1    8900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3500 9300 3500
+Wire Wire Line
+	9050 3500 9100 3500
+Connection ~ 9100 3500
+$Comp
+L Switch:SW_Push SW45
+U 1 1 630F7A5D
+P 8900 3500
+F 0 "SW45" H 8900 3785 50  0000 C CNN
+F 1 "SW_Push" H 8900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 8900 3693 50  0001 C CNN
+F 3 "~" H 8900 3700 50  0001 C CNN
+	1    8900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2800 9300 2800
+Wire Wire Line
+	9050 2800 9100 2800
+Connection ~ 9100 2800
+$Comp
+L Switch:SW_Push SW44
+U 1 1 630F7A53
+P 8900 2800
+F 0 "SW44" H 8900 3085 50  0000 C CNN
+F 1 "SW_Push" H 8900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 8900 2993 50  0001 C CNN
+F 3 "~" H 8900 3000 50  0001 C CNN
+	1    8900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1650 8300 2100
+Wire Wire Line
+	8100 2100 8300 2100
+Wire Wire Line
+	8050 2100 8100 2100
+Connection ~ 8100 2100
+$Comp
+L Switch:SW_Push SW37
+U 1 1 630F79EA
+P 7900 2100
+F 0 "SW37" H 7900 2385 50  0000 C CNN
+F 1 "SW_Push" H 7900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 7900 2293 50  0001 C CNN
+F 3 "~" H 7900 2300 50  0001 C CNN
+	1    7900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2800 7700 2800
+Wire Wire Line
+	7550 2850 7550 2800
+Wire Wire Line
+	7550 2100 7700 2100
+Wire Wire Line
+	7550 2150 7550 2100
+Wire Wire Line
+	7550 3500 7700 3500
+Wire Wire Line
+	7550 3550 7550 3500
+Wire Wire Line
+	7550 4200 7700 4200
+Wire Wire Line
+	7550 5000 7700 5000
+Wire Wire Line
+	7550 5050 7550 5000
+Wire Wire Line
+	8100 5000 8300 5000
+Wire Wire Line
+	8050 5000 8100 5000
+Connection ~ 8100 5000
+$Comp
+L Switch:SW_Push SW41
+U 1 1 630F7833
+P 7900 5000
+F 0 "SW41" H 7900 5285 50  0000 C CNN
+F 1 "SW_Push" H 7900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 7900 5193 50  0001 C CNN
+F 3 "~" H 7900 5200 50  0001 C CNN
+	1    7900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4200 8300 4200
+Wire Wire Line
+	8050 4200 8100 4200
+Connection ~ 8100 4200
+$Comp
+L Switch:SW_Push SW40
+U 1 1 630F7829
+P 7900 4200
+F 0 "SW40" H 7900 4485 50  0000 C CNN
+F 1 "SW_Push" H 7900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 7900 4393 50  0001 C CNN
+F 3 "~" H 7900 4400 50  0001 C CNN
+	1    7900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3500 8300 3500
+Wire Wire Line
+	8050 3500 8100 3500
+Connection ~ 8100 3500
+$Comp
+L Switch:SW_Push SW39
+U 1 1 630F781F
+P 7900 3500
+F 0 "SW39" H 7900 3785 50  0000 C CNN
+F 1 "SW_Push" H 7900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 7900 3693 50  0001 C CNN
+F 3 "~" H 7900 3700 50  0001 C CNN
+	1    7900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2800 8300 2800
+Wire Wire Line
+	8050 2800 8100 2800
+Connection ~ 8100 2800
+$Comp
+L Switch:SW_Push SW38
+U 1 1 630F7815
+P 7900 2800
+F 0 "SW38" H 7900 3085 50  0000 C CNN
+F 1 "SW_Push" H 7900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 7900 2993 50  0001 C CNN
+F 3 "~" H 7900 3000 50  0001 C CNN
+	1    7900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1650 7300 2100
+Wire Wire Line
+	7100 2100 7300 2100
+Wire Wire Line
+	7050 2100 7100 2100
+Connection ~ 7100 2100
+$Comp
+L Switch:SW_Push SW31
+U 1 1 630F7711
+P 6900 2100
+F 0 "SW31" H 6900 2385 50  0000 C CNN
+F 1 "SW_Push" H 6900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 6900 2293 50  0001 C CNN
+F 3 "~" H 6900 2300 50  0001 C CNN
+	1    6900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2800 6700 2800
+Wire Wire Line
+	6550 2850 6550 2800
+Wire Wire Line
+	6550 2100 6700 2100
+Wire Wire Line
+	6550 2150 6550 2100
+Wire Wire Line
+	6550 3500 6700 3500
+Wire Wire Line
+	6550 3550 6550 3500
+Wire Wire Line
+	6550 4200 6700 4200
+Wire Wire Line
+	6550 5000 6700 5000
+Wire Wire Line
+	6550 5050 6550 5000
+Wire Wire Line
+	6550 5750 6550 5700
+Wire Wire Line
+	7100 5700 7050 5700
+Wire Wire Line
+	7300 5700 7100 5700
+Connection ~ 7100 5700
+Wire Wire Line
+	6700 5700 6800 5700
+Wire Wire Line
+	6550 5700 6700 5700
+Connection ~ 6700 5700
+$Comp
+L Switch:SW_Push SW36
+U 1 1 630F75F7
+P 6900 5700
+F 0 "SW36" H 6900 5985 50  0000 C CNN
+F 1 "SW_Push" H 6900 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_6.25u_PCB" H 6900 5893 50  0001 C CNN
+F 3 "~" H 6900 5900 50  0001 C CNN
+	1    6900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5000 7300 5000
+Wire Wire Line
+	7050 5000 7100 5000
+Connection ~ 7100 5000
+$Comp
+L Switch:SW_Push SW35
+U 1 1 630F75ED
+P 6900 5000
+F 0 "SW35" H 6900 5285 50  0000 C CNN
+F 1 "SW_Push" H 6900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 6900 5193 50  0001 C CNN
+F 3 "~" H 6900 5200 50  0001 C CNN
+	1    6900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4200 7300 4200
+Wire Wire Line
+	7050 4200 7100 4200
+Connection ~ 7100 4200
+$Comp
+L Switch:SW_Push SW34
+U 1 1 630F75E3
+P 6900 4200
+F 0 "SW34" H 6900 4485 50  0000 C CNN
+F 1 "SW_Push" H 6900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 6900 4393 50  0001 C CNN
+F 3 "~" H 6900 4400 50  0001 C CNN
+	1    6900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3500 7300 3500
+Wire Wire Line
+	7050 3500 7100 3500
+Connection ~ 7100 3500
+$Comp
+L Switch:SW_Push SW33
+U 1 1 630F75D9
+P 6900 3500
+F 0 "SW33" H 6900 3785 50  0000 C CNN
+F 1 "SW_Push" H 6900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 6900 3693 50  0001 C CNN
+F 3 "~" H 6900 3700 50  0001 C CNN
+	1    6900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2800 7300 2800
+Wire Wire Line
+	7050 2800 7100 2800
+Connection ~ 7100 2800
+$Comp
+L Switch:SW_Push SW32
+U 1 1 630F75CF
+P 6900 2800
+F 0 "SW32" H 6900 3085 50  0000 C CNN
+F 1 "SW_Push" H 6900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 6900 2993 50  0001 C CNN
+F 3 "~" H 6900 3000 50  0001 C CNN
+	1    6900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1650 6300 2100
+Wire Wire Line
+	6100 2100 6300 2100
+Wire Wire Line
+	6050 2100 6100 2100
+Connection ~ 6100 2100
+$Comp
+L Switch:SW_Push SW25
+U 1 1 630F7566
+P 5900 2100
+F 0 "SW25" H 5900 2385 50  0000 C CNN
+F 1 "SW_Push" H 5900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 5900 2293 50  0001 C CNN
+F 3 "~" H 5900 2300 50  0001 C CNN
+	1    5900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2800 5700 2800
+Wire Wire Line
+	5550 2850 5550 2800
+Wire Wire Line
+	5550 2100 5700 2100
+Wire Wire Line
+	5550 2150 5550 2100
+Wire Wire Line
+	5550 3500 5700 3500
+Wire Wire Line
+	5550 3550 5550 3500
+Wire Wire Line
+	5550 4200 5700 4200
+Wire Wire Line
+	5550 5000 5700 5000
+Wire Wire Line
+	5550 5050 5550 5000
+Wire Wire Line
+	6100 5000 6300 5000
+Wire Wire Line
+	6050 5000 6100 5000
+Connection ~ 6100 5000
+$Comp
+L Switch:SW_Push SW29
+U 1 1 630F73BB
+P 5900 5000
+F 0 "SW29" H 5900 5285 50  0000 C CNN
+F 1 "SW_Push" H 5900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 5900 5193 50  0001 C CNN
+F 3 "~" H 5900 5200 50  0001 C CNN
+	1    5900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4200 6300 4200
+Wire Wire Line
+	6050 4200 6100 4200
+Connection ~ 6100 4200
+$Comp
+L Switch:SW_Push SW28
+U 1 1 630F73B1
+P 5900 4200
+F 0 "SW28" H 5900 4485 50  0000 C CNN
+F 1 "SW_Push" H 5900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 5900 4393 50  0001 C CNN
+F 3 "~" H 5900 4400 50  0001 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3500 6300 3500
+Wire Wire Line
+	6050 3500 6100 3500
+Connection ~ 6100 3500
+$Comp
+L Switch:SW_Push SW27
+U 1 1 630F73A7
+P 5900 3500
+F 0 "SW27" H 5900 3785 50  0000 C CNN
+F 1 "SW_Push" H 5900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 5900 3693 50  0001 C CNN
+F 3 "~" H 5900 3700 50  0001 C CNN
+	1    5900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2800 6300 2800
+Wire Wire Line
+	6050 2800 6100 2800
+Connection ~ 6100 2800
+$Comp
+L Switch:SW_Push SW26
+U 1 1 630F6C9B
+P 5900 2800
+F 0 "SW26" H 5900 3085 50  0000 C CNN
+F 1 "SW_Push" H 5900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 5900 2993 50  0001 C CNN
+F 3 "~" H 5900 3000 50  0001 C CNN
+	1    5900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1650 5300 2100
+Wire Wire Line
+	5100 2100 5300 2100
+Wire Wire Line
+	5050 2100 5100 2100
+Connection ~ 5100 2100
+$Comp
+L Switch:SW_Push SW19
+U 1 1 630CE1F3
+P 4900 2100
+F 0 "SW19" H 4900 2385 50  0000 C CNN
+F 1 "SW_Push" H 4900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 4900 2293 50  0001 C CNN
+F 3 "~" H 4900 2300 50  0001 C CNN
+	1    4900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2800 4700 2800
+Wire Wire Line
+	4550 2850 4550 2800
+Wire Wire Line
+	4550 2100 4700 2100
+Wire Wire Line
+	4550 2150 4550 2100
+Wire Wire Line
+	4550 3500 4700 3500
+Wire Wire Line
+	4550 3550 4550 3500
+Wire Wire Line
+	4550 4200 4700 4200
+Wire Wire Line
+	4550 5000 4700 5000
+Wire Wire Line
+	4550 5050 4550 5000
+Wire Wire Line
+	5100 5000 5300 5000
+Wire Wire Line
+	5050 5000 5100 5000
+Connection ~ 5100 5000
+$Comp
+L Switch:SW_Push SW23
+U 1 1 630CE0CE
+P 4900 5000
+F 0 "SW23" H 4900 5285 50  0000 C CNN
+F 1 "SW_Push" H 4900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 4900 5193 50  0001 C CNN
+F 3 "~" H 4900 5200 50  0001 C CNN
+	1    4900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4200 5300 4200
+Wire Wire Line
+	5050 4200 5100 4200
+Connection ~ 5100 4200
+$Comp
+L Switch:SW_Push SW22
+U 1 1 630CE0C4
+P 4900 4200
+F 0 "SW22" H 4900 4485 50  0000 C CNN
+F 1 "SW_Push" H 4900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 4900 4393 50  0001 C CNN
+F 3 "~" H 4900 4400 50  0001 C CNN
+	1    4900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3500 5300 3500
+Wire Wire Line
+	5050 3500 5100 3500
+Connection ~ 5100 3500
+$Comp
+L Switch:SW_Push SW21
+U 1 1 630CE0BA
+P 4900 3500
+F 0 "SW21" H 4900 3785 50  0000 C CNN
+F 1 "SW_Push" H 4900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 4900 3693 50  0001 C CNN
+F 3 "~" H 4900 3700 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2800 5300 2800
+Wire Wire Line
+	5050 2800 5100 2800
+Connection ~ 5100 2800
+$Comp
+L Switch:SW_Push SW20
+U 1 1 630CE0B0
+P 4900 2800
+F 0 "SW20" H 4900 3085 50  0000 C CNN
+F 1 "SW_Push" H 4900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 4900 2993 50  0001 C CNN
+F 3 "~" H 4900 3000 50  0001 C CNN
+	1    4900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1650 4300 2100
+Wire Wire Line
+	4100 2100 4300 2100
+Wire Wire Line
+	4050 2100 4100 2100
+Connection ~ 4100 2100
+$Comp
+L Switch:SW_Push SW13
+U 1 1 630CE047
+P 3900 2100
+F 0 "SW13" H 3900 2385 50  0000 C CNN
+F 1 "SW_Push" H 3900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 3900 2293 50  0001 C CNN
+F 3 "~" H 3900 2300 50  0001 C CNN
+	1    3900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2800 3700 2800
+Wire Wire Line
+	3550 2850 3550 2800
+Wire Wire Line
+	3550 2100 3700 2100
+Wire Wire Line
+	3550 2150 3550 2100
+Wire Wire Line
+	3550 3500 3700 3500
+Wire Wire Line
+	3550 3550 3550 3500
+Wire Wire Line
+	3550 4200 3700 4200
+Wire Wire Line
+	3550 5000 3700 5000
+Wire Wire Line
+	3550 5050 3550 5000
+Wire Wire Line
+	3550 5750 3550 5700
+Wire Wire Line
+	4100 5700 4050 5700
+Wire Wire Line
+	4300 5700 4100 5700
+Connection ~ 4100 5700
+Wire Wire Line
+	3700 5700 3800 5700
+Wire Wire Line
+	3550 5700 3700 5700
+Connection ~ 3700 5700
+$Comp
+L Switch:SW_Push SW18
+U 1 1 630CDEA6
+P 3900 5700
+F 0 "SW18" H 3900 5985 50  0000 C CNN
+F 1 "SW_Push" H 3900 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.25u_PCB" H 3900 5893 50  0001 C CNN
+F 3 "~" H 3900 5900 50  0001 C CNN
+	1    3900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 5000 4300 5000
+Wire Wire Line
+	4050 5000 4100 5000
+Connection ~ 4100 5000
+$Comp
+L Switch:SW_Push SW17
+U 1 1 630CDE9C
+P 3900 5000
+F 0 "SW17" H 3900 5285 50  0000 C CNN
+F 1 "SW_Push" H 3900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 3900 5193 50  0001 C CNN
+F 3 "~" H 3900 5200 50  0001 C CNN
+	1    3900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4200 4300 4200
+Wire Wire Line
+	4050 4200 4100 4200
+Connection ~ 4100 4200
+$Comp
+L Switch:SW_Push SW16
+U 1 1 630CDE92
+P 3900 4200
+F 0 "SW16" H 3900 4485 50  0000 C CNN
+F 1 "SW_Push" H 3900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 3900 4393 50  0001 C CNN
+F 3 "~" H 3900 4400 50  0001 C CNN
+	1    3900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3500 4300 3500
+Wire Wire Line
+	4050 3500 4100 3500
+Connection ~ 4100 3500
+$Comp
+L Switch:SW_Push SW15
+U 1 1 630CDE88
+P 3900 3500
+F 0 "SW15" H 3900 3785 50  0000 C CNN
+F 1 "SW_Push" H 3900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 3900 3693 50  0001 C CNN
+F 3 "~" H 3900 3700 50  0001 C CNN
+	1    3900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2800 4300 2800
+Wire Wire Line
+	4050 2800 4100 2800
+Connection ~ 4100 2800
+$Comp
+L Switch:SW_Push SW14
+U 1 1 630CDAF4
+P 3900 2800
+F 0 "SW14" H 3900 3085 50  0000 C CNN
+F 1 "SW_Push" H 3900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 3900 2993 50  0001 C CNN
+F 3 "~" H 3900 3000 50  0001 C CNN
+	1    3900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1650 3300 2100
+Wire Wire Line
+	3100 2100 3300 2100
+Wire Wire Line
+	3050 2100 3100 2100
+Connection ~ 3100 2100
+$Comp
+L Switch:SW_Push SW7
+U 1 1 630C3CBC
+P 2900 2100
+F 0 "SW7" H 2900 2385 50  0000 C CNN
+F 1 "SW_Push" H 2900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 2900 2293 50  0001 C CNN
+F 3 "~" H 2900 2300 50  0001 C CNN
+	1    2900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2800 2700 2800
+Wire Wire Line
+	2550 2850 2550 2800
+Wire Wire Line
+	2550 2100 2700 2100
+Wire Wire Line
+	2550 2150 2550 2100
+Wire Wire Line
+	2550 3500 2700 3500
+Wire Wire Line
+	2550 3550 2550 3500
+Wire Wire Line
+	2550 4200 2700 4200
+Wire Wire Line
+	2550 5000 2700 5000
+Wire Wire Line
+	2550 5050 2550 5000
+Wire Wire Line
+	2550 5750 2550 5700
+Wire Wire Line
+	3100 5700 3050 5700
+Wire Wire Line
+	3300 5700 3100 5700
+Connection ~ 3100 5700
+Wire Wire Line
+	2700 5700 2800 5700
+Wire Wire Line
+	2550 5700 2700 5700
+Connection ~ 2700 5700
+$Comp
+L Switch:SW_Push SW12
+U 1 1 630C3AEA
+P 2900 5700
+F 0 "SW12" H 2900 5985 50  0000 C CNN
+F 1 "SW_Push" H 2900 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.25u_PCB" H 2900 5893 50  0001 C CNN
+F 3 "~" H 2900 5900 50  0001 C CNN
+	1    2900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5000 3300 5000
+Wire Wire Line
+	3050 5000 3100 5000
+Connection ~ 3100 5000
+$Comp
+L Switch:SW_Push SW11
+U 1 1 630C3AE0
+P 2900 5000
+F 0 "SW11" H 2900 5285 50  0000 C CNN
+F 1 "SW_Push" H 2900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 2900 5193 50  0001 C CNN
+F 3 "~" H 2900 5200 50  0001 C CNN
+	1    2900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4200 3300 4200
+Wire Wire Line
+	3050 4200 3100 4200
+Connection ~ 3100 4200
+$Comp
+L Switch:SW_Push SW10
+U 1 1 630C3AD6
+P 2900 4200
+F 0 "SW10" H 2900 4485 50  0000 C CNN
+F 1 "SW_Push" H 2900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 2900 4393 50  0001 C CNN
+F 3 "~" H 2900 4400 50  0001 C CNN
+	1    2900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3500 3300 3500
+Wire Wire Line
+	3050 3500 3100 3500
+Connection ~ 3100 3500
+$Comp
+L Switch:SW_Push SW9
+U 1 1 630C3ACC
+P 2900 3500
+F 0 "SW9" H 2900 3785 50  0000 C CNN
+F 1 "SW_Push" H 2900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 2900 3693 50  0001 C CNN
+F 3 "~" H 2900 3700 50  0001 C CNN
+	1    2900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2800 3300 2800
+Wire Wire Line
+	3050 2800 3100 2800
+Connection ~ 3100 2800
+$Comp
+L Switch:SW_Push SW8
+U 1 1 630C38F4
+P 2900 2800
+F 0 "SW8" H 2900 3085 50  0000 C CNN
+F 1 "SW_Push" H 2900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 2900 2993 50  0001 C CNN
+F 3 "~" H 2900 3000 50  0001 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1650 2300 2100
+Text GLabel 10350 1650 1    50   Input ~ 0
+COL8
+Text GLabel 11350 1650 1    50   Input ~ 0
+COL9
+Text GLabel 12350 1650 1    50   Input ~ 0
+COL10
+Text GLabel 13350 1650 1    50   Input ~ 0
+COL11
+Text GLabel 14350 1650 1    50   Input ~ 0
+COL12
+Text GLabel 15350 1650 1    50   Input ~ 0
+COL13
+Text GLabel 16350 1650 1    50   Input ~ 0
+COL14
+Wire Wire Line
+	2100 2100 2300 2100
+Wire Wire Line
+	2050 2100 2100 2100
+Connection ~ 2100 2100
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6308DCA9
+P 1900 2100
+F 0 "SW1" H 1900 2385 50  0000 C CNN
+F 1 "SW_Push" H 1900 2294 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 1900 2293 50  0001 C CNN
+F 3 "~" H 1900 2300 50  0001 C CNN
+	1    1900 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 1650 1    50   Input ~ 0
+COL0
+Text GLabel 3300 1650 1    50   Input ~ 0
+COL1
+Text GLabel 4300 1650 1    50   Input ~ 0
+COL2
+Text GLabel 5300 1650 1    50   Input ~ 0
+COL3
+Text GLabel 6300 1650 1    50   Input ~ 0
+COL4
+Text GLabel 7300 1650 1    50   Input ~ 0
+COL5
+Text GLabel 8300 1650 1    50   Input ~ 0
+COL6
+Text GLabel 9300 1650 1    50   Input ~ 0
+COL7
+Text GLabel 850  3100 0    50   Output ~ 0
+ROW1
+Text GLabel 850  2400 0    50   Output ~ 0
+ROW0
+Text GLabel 850  3800 0    50   Output ~ 0
+ROW2
+Wire Wire Line
+	1550 2800 1700 2800
+Wire Wire Line
+	1550 2850 1550 2800
+Wire Wire Line
+	1550 2100 1700 2100
+Wire Wire Line
+	1550 2150 1550 2100
+Wire Wire Line
+	1550 3500 1700 3500
+Wire Wire Line
+	1550 3550 1550 3500
+Wire Wire Line
+	1550 4200 1700 4200
+Wire Wire Line
+	1550 5000 1700 5000
+Wire Wire Line
+	1550 5050 1550 5000
+Wire Wire Line
+	1550 5750 1550 5700
+Text GLabel 850  4500 0    50   Output ~ 0
+ROW3
+Text GLabel 850  5300 0    50   Output ~ 0
+ROW4
+Wire Wire Line
+	2100 5700 2050 5700
+Wire Wire Line
+	2300 5700 2100 5700
+Connection ~ 2100 5700
+Wire Wire Line
+	1700 5700 1800 5700
+Wire Wire Line
+	1550 5700 1700 5700
+Connection ~ 1700 5700
+$Comp
+L Switch:SW_Push SW6
+U 1 1 63095FAB
+P 1900 5700
+F 0 "SW6" H 1900 5985 50  0000 C CNN
+F 1 "SW_Push" H 1900 5894 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.25u_PCB" H 1900 5893 50  0001 C CNN
+F 3 "~" H 1900 5900 50  0001 C CNN
+	1    1900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5000 2300 5000
+Wire Wire Line
+	2050 5000 2100 5000
+Connection ~ 2100 5000
+$Comp
+L Switch:SW_Push SW5
+U 1 1 63095F8F
+P 1900 5000
+F 0 "SW5" H 1900 5285 50  0000 C CNN
+F 1 "SW_Push" H 1900 5194 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_2.25u_PCB" H 1900 5193 50  0001 C CNN
+F 3 "~" H 1900 5200 50  0001 C CNN
+	1    1900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4200 2300 4200
+Wire Wire Line
+	2050 4200 2100 4200
+Connection ~ 2100 4200
+$Comp
+L Switch:SW_Push SW4
+U 1 1 630911B7
+P 1900 4200
+F 0 "SW4" H 1900 4485 50  0000 C CNN
+F 1 "SW_Push" H 1900 4394 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.75u_PCB" H 1900 4393 50  0001 C CNN
+F 3 "~" H 1900 4400 50  0001 C CNN
+	1    1900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3500 2300 3500
+Wire Wire Line
+	2050 3500 2100 3500
+Connection ~ 2100 3500
+$Comp
+L Switch:SW_Push SW3
+U 1 1 6309116F
+P 1900 3500
+F 0 "SW3" H 1900 3785 50  0000 C CNN
+F 1 "SW_Push" H 1900 3694 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.50u_PCB" H 1900 3693 50  0001 C CNN
+F 3 "~" H 1900 3700 50  0001 C CNN
+	1    1900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2800 2300 2800
+Wire Wire Line
+	2050 2800 2100 2800
+Connection ~ 2100 2800
+$Comp
+L Switch:SW_Push SW2
+U 1 1 6308FC9C
+P 1900 2800
+F 0 "SW2" H 1900 3085 50  0000 C CNN
+F 1 "SW_Push" H 1900 2994 50  0000 C CNN
+F 2 "custom_keys:SW_Cherry_MX_1.00u_PCB" H 1900 2993 50  0001 C CNN
+F 3 "~" H 1900 3000 50  0001 C CNN
+	1    1900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  6000 15600 6000
+$Comp
+L Diode:1N4148 D6
+U 1 1 68223160
+P 1550 5850
+F 0 "D6" V 1596 5770 50  0000 R CNN
+F 1 "1N4148WS" V 1505 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1550 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 1550 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 1550 5850 50  0001 C CNN "Part URL"
+	1    1550 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 68223167
+P 2550 5850
+F 0 "D12" V 2596 5770 50  0000 R CNN
+F 1 "1N4148WS" V 2505 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2550 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 2550 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 2550 5850 50  0001 C CNN "Part URL"
+	1    2550 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 6822316E
+P 3550 5850
+F 0 "D18" V 3596 5770 50  0000 R CNN
+F 1 "1N4148WS" V 3505 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 3550 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 3550 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 3550 5850 50  0001 C CNN "Part URL"
+	1    3550 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D54
+U 1 1 68223175
+P 9600 5850
+F 0 "D54" V 9646 5770 50  0000 R CNN
+F 1 "1N4148WS" V 9555 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9600 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 9600 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 9600 5850 50  0001 C CNN "Part URL"
+	1    9600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D60
+U 1 1 6822317C
+P 10600 5850
+F 0 "D60" V 10646 5770 50  0000 R CNN
+F 1 "1N4148WS" V 10555 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10600 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 10600 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 10600 5850 50  0001 C CNN "Part URL"
+	1    10600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D66
+U 1 1 68223183
+P 11600 5850
+F 0 "D66" V 11646 5770 50  0000 R CNN
+F 1 "1N4148WS" V 11555 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11600 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 11600 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 11600 5850 50  0001 C CNN "Part URL"
+	1    11600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D72
+U 1 1 6822318A
+P 12600 5850
+F 0 "D72" V 12646 5770 50  0000 R CNN
+F 1 "1N4148WS" V 12555 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 12600 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 12600 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 12600 5850 50  0001 C CNN "Part URL"
+	1    12600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D84
+U 1 1 68223191
+P 14600 5850
+F 0 "D84" V 14646 5770 50  0000 R CNN
+F 1 "1N4148WS" V 14555 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 14600 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 14600 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 14600 5850 50  0001 C CNN "Part URL"
+	1    14600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D90
+U 1 1 68223198
+P 15600 5850
+F 0 "D90" V 15646 5770 50  0000 R CNN
+F 1 "1N4148WS" V 15555 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 15600 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 15600 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 15600 5850 50  0001 C CNN "Part URL"
+	1    15600 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 6822319F
+P 6550 5850
+F 0 "D36" V 6596 5770 50  0000 R CNN
+F 1 "1N4148WS" V 6505 5770 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6550 5675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 6550 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 6550 5850 50  0001 C CNN "Part URL"
+	1    6550 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	850  5300 15600 5300
+$Comp
+L Diode:1N4148 D5
+U 1 1 6832D6F6
+P 1550 5150
+F 0 "D5" V 1596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 1505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 1550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 1550 5150 50  0001 C CNN "Part URL"
+	1    1550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 5300 1550 5200
+Wire Wire Line
+	2300 5000 2300 5700
+$Comp
+L Diode:1N4148 D11
+U 1 1 6832D6FF
+P 2550 5150
+F 0 "D11" V 2596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 2505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 2550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 2550 5150 50  0001 C CNN "Part URL"
+	1    2550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 5300 2550 5200
+Wire Wire Line
+	3300 5000 3300 5700
+$Comp
+L Diode:1N4148 D17
+U 1 1 6832D708
+P 3550 5150
+F 0 "D17" V 3596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 3505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 3550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 3550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 3550 5150 50  0001 C CNN "Part URL"
+	1    3550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 5300 3550 5200
+Wire Wire Line
+	4300 5000 4300 5700
+$Comp
+L Diode:1N4148 D23
+U 1 1 6832D711
+P 4550 5150
+F 0 "D23" V 4596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 4505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 4550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 4550 5150 50  0001 C CNN "Part URL"
+	1    4550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 5300 4550 5200
+$Comp
+L Diode:1N4148 D29
+U 1 1 6832D71A
+P 5550 5150
+F 0 "D29" V 5596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 5505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 5550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 5550 5150 50  0001 C CNN "Part URL"
+	1    5550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 5300 5550 5200
+$Comp
+L Diode:1N4148 D35
+U 1 1 6832D723
+P 6550 5150
+F 0 "D35" V 6596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 6505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 6550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 6550 5150 50  0001 C CNN "Part URL"
+	1    6550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 5300 6550 5200
+Wire Wire Line
+	7300 5000 7300 5700
+$Comp
+L Diode:1N4148 D41
+U 1 1 6832D72C
+P 7550 5150
+F 0 "D41" V 7596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 7505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 7550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 7550 5150 50  0001 C CNN "Part URL"
+	1    7550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 5300 7550 5200
+$Comp
+L Diode:1N4148 D47
+U 1 1 6832D735
+P 8550 5150
+F 0 "D47" V 8596 5070 50  0000 R CNN
+F 1 "1N4148WS" V 8505 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 8550 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 8550 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 8550 5150 50  0001 C CNN "Part URL"
+	1    8550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 5300 8550 5200
+$Comp
+L Diode:1N4148 D53
+U 1 1 6832D73E
+P 9600 5150
+F 0 "D53" V 9646 5070 50  0000 R CNN
+F 1 "1N4148WS" V 9555 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9600 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 9600 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 9600 5150 50  0001 C CNN "Part URL"
+	1    9600 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 5300 9600 5200
+Wire Wire Line
+	10350 5000 10350 5700
+$Comp
+L Diode:1N4148 D59
+U 1 1 6832D747
+P 10600 5150
+F 0 "D59" V 10646 5070 50  0000 R CNN
+F 1 "1N4148WS" V 10555 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10600 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 10600 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 10600 5150 50  0001 C CNN "Part URL"
+	1    10600 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10600 5300 10600 5200
+Wire Wire Line
+	11350 5000 11350 5700
+$Comp
+L Diode:1N4148 D65
+U 1 1 6832D750
+P 11600 5150
+F 0 "D65" V 11646 5070 50  0000 R CNN
+F 1 "1N4148WS" V 11555 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11600 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 11600 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 11600 5150 50  0001 C CNN "Part URL"
+	1    11600 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11600 5300 11600 5200
+Wire Wire Line
+	12350 5000 12350 5700
+$Comp
+L Diode:1N4148 D71
+U 1 1 6832D759
+P 12600 5150
+F 0 "D71" V 12646 5070 50  0000 R CNN
+F 1 "1N4148WS" V 12555 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 12600 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 12600 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 12600 5150 50  0001 C CNN "Part URL"
+	1    12600 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12600 5300 12600 5200
+Wire Wire Line
+	13350 5000 13350 5700
+$Comp
+L Diode:1N4148 D83
+U 1 1 6832D762
+P 14600 5150
+F 0 "D83" V 14646 5070 50  0000 R CNN
+F 1 "1N4148WS" V 14555 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 14600 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 14600 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 14600 5150 50  0001 C CNN "Part URL"
+	1    14600 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14600 5300 14600 5200
+Wire Wire Line
+	15350 5000 15350 5700
+$Comp
+L Diode:1N4148 D89
+U 1 1 6832D76B
+P 15600 5150
+F 0 "D89" V 15646 5070 50  0000 R CNN
+F 1 "1N4148WS" V 15555 5070 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 15600 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 15600 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 15600 5150 50  0001 C CNN "Part URL"
+	1    15600 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15600 5300 15600 5200
+Wire Wire Line
+	16350 5000 16350 5700
+Wire Wire Line
+	850  4500 15600 4500
+$Comp
+L Diode:1N4148 D4
+U 1 1 68439EAB
+P 1550 4350
+F 0 "D4" V 1596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 1505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 1550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 1550 4350 50  0001 C CNN "Part URL"
+	1    1550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 4200 2300 5000
+$Comp
+L Diode:1N4148 D10
+U 1 1 68439EB3
+P 2550 4350
+F 0 "D10" V 2596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 2505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 2550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 2550 4350 50  0001 C CNN "Part URL"
+	1    2550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 4200 3300 5000
+$Comp
+L Diode:1N4148 D16
+U 1 1 68439EBB
+P 3550 4350
+F 0 "D16" V 3596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 3505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 3550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 3550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 3550 4350 50  0001 C CNN "Part URL"
+	1    3550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 4200 4300 5000
+$Comp
+L Diode:1N4148 D22
+U 1 1 68439EC3
+P 4550 4350
+F 0 "D22" V 4596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 4505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 4550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 4550 4350 50  0001 C CNN "Part URL"
+	1    4550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4200 5300 5000
+$Comp
+L Diode:1N4148 D28
+U 1 1 68439ECB
+P 5550 4350
+F 0 "D28" V 5596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 5505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 5550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 5550 4350 50  0001 C CNN "Part URL"
+	1    5550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 4200 6300 5000
+$Comp
+L Diode:1N4148 D34
+U 1 1 68439ED3
+P 6550 4350
+F 0 "D34" V 6596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 6505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 6550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 6550 4350 50  0001 C CNN "Part URL"
+	1    6550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 4200 7300 5000
+$Comp
+L Diode:1N4148 D40
+U 1 1 68439EDB
+P 7550 4350
+F 0 "D40" V 7596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 7505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 7550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 7550 4350 50  0001 C CNN "Part URL"
+	1    7550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4200 8300 5000
+$Comp
+L Diode:1N4148 D46
+U 1 1 68439EE3
+P 8550 4350
+F 0 "D46" V 8596 4270 50  0000 R CNN
+F 1 "1N4148WS" V 8505 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 8550 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 8550 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 8550 4350 50  0001 C CNN "Part URL"
+	1    8550 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 4200 9300 5000
+$Comp
+L Diode:1N4148 D52
+U 1 1 68439EEB
+P 9600 4350
+F 0 "D52" V 9646 4270 50  0000 R CNN
+F 1 "1N4148WS" V 9555 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9600 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 9600 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 9600 4350 50  0001 C CNN "Part URL"
+	1    9600 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 4200 10350 5000
+$Comp
+L Diode:1N4148 D58
+U 1 1 68439EF3
+P 10600 4350
+F 0 "D58" V 10646 4270 50  0000 R CNN
+F 1 "1N4148WS" V 10555 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10600 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 10600 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 10600 4350 50  0001 C CNN "Part URL"
+	1    10600 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11350 4200 11350 5000
+$Comp
+L Diode:1N4148 D64
+U 1 1 68439EFB
+P 11600 4350
+F 0 "D64" V 11646 4270 50  0000 R CNN
+F 1 "1N4148WS" V 11555 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11600 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 11600 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 11600 4350 50  0001 C CNN "Part URL"
+	1    11600 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12350 4200 12350 5000
+$Comp
+L Diode:1N4148 D70
+U 1 1 68439F03
+P 12600 4350
+F 0 "D70" V 12646 4270 50  0000 R CNN
+F 1 "1N4148WS" V 12555 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 12600 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 12600 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 12600 4350 50  0001 C CNN "Part URL"
+	1    12600 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 4200 13350 5000
+$Comp
+L Diode:1N4148 D76
+U 1 1 68439F0B
+P 13600 4350
+F 0 "D76" V 13646 4270 50  0000 R CNN
+F 1 "1N4148WS" V 13555 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13600 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 13600 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 13600 4350 50  0001 C CNN "Part URL"
+	1    13600 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D82
+U 1 1 68439F12
+P 14600 4350
+F 0 "D82" V 14646 4270 50  0000 R CNN
+F 1 "1N4148WS" V 14555 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 14600 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 14600 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 14600 4350 50  0001 C CNN "Part URL"
+	1    14600 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15350 4200 15350 5000
+$Comp
+L Diode:1N4148 D88
+U 1 1 68439F1A
+P 15600 4350
+F 0 "D88" V 15646 4270 50  0000 R CNN
+F 1 "1N4148WS" V 15555 4270 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 15600 4175 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 15600 4350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 15600 4350 50  0001 C CNN "Part URL"
+	1    15600 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16350 4200 16350 5000
+Wire Wire Line
+	15600 4250 15600 4200
+Wire Wire Line
+	14600 4250 14600 4200
+Wire Wire Line
+	13600 4250 13600 4200
+Wire Wire Line
+	12600 4250 12600 4200
+Wire Wire Line
+	11600 4250 11600 4200
+Wire Wire Line
+	10600 4250 10600 4200
+Wire Wire Line
+	9600 4250 9600 4200
+Wire Wire Line
+	8550 4250 8550 4200
+Wire Wire Line
+	7550 4250 7550 4200
+Wire Wire Line
+	6550 4250 6550 4200
+Wire Wire Line
+	5550 4250 5550 4200
+Wire Wire Line
+	4550 4250 4550 4200
+Wire Wire Line
+	3550 4250 3550 4200
+Wire Wire Line
+	2550 4250 2550 4200
+Wire Wire Line
+	1550 4250 1550 4200
+Wire Wire Line
+	850  3800 15600 3800
+$Comp
+L Diode:1N4148 D3
+U 1 1 6852D7DF
+P 1550 3650
+F 0 "D3" V 1596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 1505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 1550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 1550 3650 50  0001 C CNN "Part URL"
+	1    1550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 3500 2300 4200
+$Comp
+L Diode:1N4148 D9
+U 1 1 6852D7E7
+P 2550 3650
+F 0 "D9" V 2596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 2505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 2550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 2550 3650 50  0001 C CNN "Part URL"
+	1    2550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 3500 3300 4200
+$Comp
+L Diode:1N4148 D15
+U 1 1 6852D7EF
+P 3550 3650
+F 0 "D15" V 3596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 3505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 3550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 3550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 3550 3650 50  0001 C CNN "Part URL"
+	1    3550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 3500 4300 4200
+$Comp
+L Diode:1N4148 D21
+U 1 1 6852D7F7
+P 4550 3650
+F 0 "D21" V 4596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 4505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 4550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 4550 3650 50  0001 C CNN "Part URL"
+	1    4550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3500 5300 4200
+$Comp
+L Diode:1N4148 D27
+U 1 1 6852D7FF
+P 5550 3650
+F 0 "D27" V 5596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 5505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 5550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 5550 3650 50  0001 C CNN "Part URL"
+	1    5550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 3500 6300 4200
+$Comp
+L Diode:1N4148 D33
+U 1 1 6852D807
+P 6550 3650
+F 0 "D33" V 6596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 6505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 6550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 6550 3650 50  0001 C CNN "Part URL"
+	1    6550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 3500 7300 4200
+$Comp
+L Diode:1N4148 D39
+U 1 1 6852D80F
+P 7550 3650
+F 0 "D39" V 7596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 7505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 7550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 7550 3650 50  0001 C CNN "Part URL"
+	1    7550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 3500 8300 4200
+$Comp
+L Diode:1N4148 D45
+U 1 1 6852D817
+P 8550 3650
+F 0 "D45" V 8596 3570 50  0000 R CNN
+F 1 "1N4148WS" V 8505 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 8550 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 8550 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 8550 3650 50  0001 C CNN "Part URL"
+	1    8550 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 3500 9300 4200
+$Comp
+L Diode:1N4148 D51
+U 1 1 6852D81F
+P 9600 3650
+F 0 "D51" V 9646 3570 50  0000 R CNN
+F 1 "1N4148WS" V 9555 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9600 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 9600 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 9600 3650 50  0001 C CNN "Part URL"
+	1    9600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 3500 10350 4200
+$Comp
+L Diode:1N4148 D57
+U 1 1 6852D827
+P 10600 3650
+F 0 "D57" V 10646 3570 50  0000 R CNN
+F 1 "1N4148WS" V 10555 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10600 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 10600 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 10600 3650 50  0001 C CNN "Part URL"
+	1    10600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11350 3500 11350 4200
+$Comp
+L Diode:1N4148 D63
+U 1 1 6852D82F
+P 11600 3650
+F 0 "D63" V 11646 3570 50  0000 R CNN
+F 1 "1N4148WS" V 11555 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11600 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 11600 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 11600 3650 50  0001 C CNN "Part URL"
+	1    11600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12350 3500 12350 4200
+$Comp
+L Diode:1N4148 D69
+U 1 1 6852D837
+P 12600 3650
+F 0 "D69" V 12646 3570 50  0000 R CNN
+F 1 "1N4148WS" V 12555 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 12600 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 12600 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 12600 3650 50  0001 C CNN "Part URL"
+	1    12600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 3500 13350 4200
+$Comp
+L Diode:1N4148 D75
+U 1 1 6852D83F
+P 13600 3650
+F 0 "D75" V 13646 3570 50  0000 R CNN
+F 1 "1N4148WS" V 13555 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13600 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 13600 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 13600 3650 50  0001 C CNN "Part URL"
+	1    13600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14350 3500 14350 4200
+$Comp
+L Diode:1N4148 D81
+U 1 1 6852D847
+P 14600 3650
+F 0 "D81" V 14646 3570 50  0000 R CNN
+F 1 "1N4148WS" V 14555 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 14600 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 14600 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 14600 3650 50  0001 C CNN "Part URL"
+	1    14600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15350 3500 15350 4200
+$Comp
+L Diode:1N4148 D87
+U 1 1 6852D84F
+P 15600 3650
+F 0 "D87" V 15646 3570 50  0000 R CNN
+F 1 "1N4148WS" V 15555 3570 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 15600 3475 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 15600 3650 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 15600 3650 50  0001 C CNN "Part URL"
+	1    15600 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16350 3500 16350 4200
+Wire Wire Line
+	850  3100 4950 3100
+Wire Wire Line
+	4950 3100 11000 3100
+Wire Wire Line
+	11000 3100 15000 3100
+$Comp
+L Diode:1N4148 D2
+U 1 1 68615CBA
+P 1550 2950
+F 0 "D2" V 1596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 1505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 1550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 1550 2950 50  0001 C CNN "Part URL"
+	1    1550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 68615CC2
+P 2550 2950
+F 0 "D8" V 2596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 2505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 2550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 2550 2950 50  0001 C CNN "Part URL"
+	1    2550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 68615CCA
+P 3550 2950
+F 0 "D14" V 3596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 3505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 3550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 3550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 3550 2950 50  0001 C CNN "Part URL"
+	1    3550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 68615CD2
+P 4550 2950
+F 0 "D20" V 4596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 4505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 4550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 4550 2950 50  0001 C CNN "Part URL"
+	1    4550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 68615CDA
+P 5550 2950
+F 0 "D26" V 5596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 5505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 5550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 5550 2950 50  0001 C CNN "Part URL"
+	1    5550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 68615CE2
+P 6550 2950
+F 0 "D32" V 6596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 6505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 6550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 6550 2950 50  0001 C CNN "Part URL"
+	1    6550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D38
+U 1 1 68615CEA
+P 7550 2950
+F 0 "D38" V 7596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 7505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 7550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 7550 2950 50  0001 C CNN "Part URL"
+	1    7550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D44
+U 1 1 68615CF2
+P 8550 2950
+F 0 "D44" V 8596 2870 50  0000 R CNN
+F 1 "1N4148WS" V 8505 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 8550 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 8550 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 8550 2950 50  0001 C CNN "Part URL"
+	1    8550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D50
+U 1 1 68615CFA
+P 9600 2950
+F 0 "D50" V 9646 2870 50  0000 R CNN
+F 1 "1N4148WS" V 9555 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9600 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 9600 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 9600 2950 50  0001 C CNN "Part URL"
+	1    9600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D56
+U 1 1 68615D02
+P 10600 2950
+F 0 "D56" V 10646 2870 50  0000 R CNN
+F 1 "1N4148WS" V 10555 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10600 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 10600 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 10600 2950 50  0001 C CNN "Part URL"
+	1    10600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D62
+U 1 1 68615D0A
+P 11600 2950
+F 0 "D62" V 11646 2870 50  0000 R CNN
+F 1 "1N4148WS" V 11555 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11600 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 11600 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 11600 2950 50  0001 C CNN "Part URL"
+	1    11600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D68
+U 1 1 68615D12
+P 12600 2950
+F 0 "D68" V 12646 2870 50  0000 R CNN
+F 1 "1N4148WS" V 12555 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 12600 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 12600 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 12600 2950 50  0001 C CNN "Part URL"
+	1    12600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D74
+U 1 1 68615D1A
+P 13600 2950
+F 0 "D74" V 13646 2870 50  0000 R CNN
+F 1 "1N4148WS" V 13555 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13600 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 13600 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 13600 2950 50  0001 C CNN "Part URL"
+	1    13600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D80
+U 1 1 68615D22
+P 14600 2950
+F 0 "D80" V 14646 2870 50  0000 R CNN
+F 1 "1N4148WS" V 14555 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 14600 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 14600 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 14600 2950 50  0001 C CNN "Part URL"
+	1    14600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D86
+U 1 1 68615D2A
+P 15600 2950
+F 0 "D86" V 15646 2870 50  0000 R CNN
+F 1 "1N4148WS" V 15555 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 15600 2775 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 15600 2950 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 15600 2950 50  0001 C CNN "Part URL"
+	1    15600 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	850  2400 15600 2400
+Wire Wire Line
+	16350 2800 16350 3500
+Wire Wire Line
+	15350 2800 15350 3500
+Wire Wire Line
+	14350 2800 14350 3500
+Wire Wire Line
+	13350 2800 13350 3500
+Wire Wire Line
+	12350 2800 12350 3500
+Wire Wire Line
+	11350 2800 11350 3500
+Wire Wire Line
+	10350 2800 10350 3500
+Wire Wire Line
+	9300 2800 9300 3500
+Wire Wire Line
+	8300 2800 8300 3500
+Wire Wire Line
+	7300 2800 7300 3500
+Wire Wire Line
+	6300 2800 6300 3500
+Wire Wire Line
+	5300 2800 5300 3500
+Wire Wire Line
+	4300 2800 4300 3500
+Wire Wire Line
+	3300 2800 3300 3500
+Wire Wire Line
+	2300 2800 2300 3500
+Wire Wire Line
+	16350 2100 16350 2800
+$Comp
+L Diode:1N4148 D85
+U 1 1 6873AA89
+P 15600 2250
+F 0 "D85" V 15646 2170 50  0000 R CNN
+F 1 "1N4148WS" V 15555 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 15600 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 15600 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 15600 2250 50  0001 C CNN "Part URL"
+	1    15600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15350 2100 15350 2800
+$Comp
+L Diode:1N4148 D79
+U 1 1 6873AA91
+P 14600 2250
+F 0 "D79" V 14646 2170 50  0000 R CNN
+F 1 "1N4148WS" V 14555 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 14600 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 14600 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 14600 2250 50  0001 C CNN "Part URL"
+	1    14600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14350 2100 14350 2800
+$Comp
+L Diode:1N4148 D73
+U 1 1 6873AA99
+P 13600 2250
+F 0 "D73" V 13646 2170 50  0000 R CNN
+F 1 "1N4148WS" V 13555 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13600 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 13600 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 13600 2250 50  0001 C CNN "Part URL"
+	1    13600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 2100 13350 2800
+$Comp
+L Diode:1N4148 D67
+U 1 1 6873AAA1
+P 12600 2250
+F 0 "D67" V 12646 2170 50  0000 R CNN
+F 1 "1N4148WS" V 12555 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 12600 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 12600 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 12600 2250 50  0001 C CNN "Part URL"
+	1    12600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12350 2100 12350 2800
+$Comp
+L Diode:1N4148 D61
+U 1 1 6873AAA9
+P 11600 2250
+F 0 "D61" V 11646 2170 50  0000 R CNN
+F 1 "1N4148WS" V 11555 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11600 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 11600 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 11600 2250 50  0001 C CNN "Part URL"
+	1    11600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11350 2100 11350 2800
+$Comp
+L Diode:1N4148 D55
+U 1 1 6873AAB1
+P 10600 2250
+F 0 "D55" V 10646 2170 50  0000 R CNN
+F 1 "1N4148WS" V 10555 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10600 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 10600 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 10600 2250 50  0001 C CNN "Part URL"
+	1    10600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 2100 10350 2800
+$Comp
+L Diode:1N4148 D49
+U 1 1 6873AAB9
+P 9600 2250
+F 0 "D49" V 9646 2170 50  0000 R CNN
+F 1 "1N4148WS" V 9555 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9600 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 9600 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 9600 2250 50  0001 C CNN "Part URL"
+	1    9600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 2100 9300 2800
+$Comp
+L Diode:1N4148 D43
+U 1 1 6873AAC1
+P 8550 2250
+F 0 "D43" V 8596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 8505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 8550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 8550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 8550 2250 50  0001 C CNN "Part URL"
+	1    8550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 2100 8300 2800
+$Comp
+L Diode:1N4148 D37
+U 1 1 6873AAC9
+P 7550 2250
+F 0 "D37" V 7596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 7505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 7550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 7550 2250 50  0001 C CNN "Part URL"
+	1    7550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 2100 7300 2800
+$Comp
+L Diode:1N4148 D31
+U 1 1 6873AAD1
+P 6550 2250
+F 0 "D31" V 6596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 6505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 6550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 6550 2250 50  0001 C CNN "Part URL"
+	1    6550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 2100 6300 2800
+$Comp
+L Diode:1N4148 D25
+U 1 1 6873AAD9
+P 5550 2250
+F 0 "D25" V 5596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 5505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 5550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 5550 2250 50  0001 C CNN "Part URL"
+	1    5550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 2100 5300 2800
+$Comp
+L Diode:1N4148 D19
+U 1 1 6873AAE1
+P 4550 2250
+F 0 "D19" V 4596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 4505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 4550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 4550 2250 50  0001 C CNN "Part URL"
+	1    4550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 2100 4300 2800
+$Comp
+L Diode:1N4148 D13
+U 1 1 6873AAE9
+P 3550 2250
+F 0 "D13" V 3596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 3505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 3550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 3550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 3550 2250 50  0001 C CNN "Part URL"
+	1    3550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 2100 3300 2800
+$Comp
+L Diode:1N4148 D7
+U 1 1 6873AAF1
+P 2550 2250
+F 0 "D7" V 2596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 2505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 2550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 2550 2250 50  0001 C CNN "Part URL"
+	1    2550 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 2100 2300 2800
+$Comp
+L Diode:1N4148 D1
+U 1 1 6873AAF9
+P 1550 2250
+F 0 "D1" V 1596 2170 50  0000 R CNN
+F 1 "1N4148WS" V 1505 2170 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1550 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Shikues-1N4148WS_C110221.pdf" H 1550 2250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_Shikues-1N4148WS_C110221.html" H 1550 2250 50  0001 C CNN "Part URL"
+	1    1550 2250
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

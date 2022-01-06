@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name SW_cherry)(type KiCad)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/Button_Switch_Keyboard.pretty)(options "")(descr ""))
+  (lib (name oLED)(type KiCad)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/diymore242display-master/oled242.pretty)(options "")(descr ""))
+  (lib (name LED_SDM_MOD)(type KiCad)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/LED_SMD_MOD.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts2)(type Github)(uri https://github.com/tmk/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type Github)(uri https://github.com/keebio/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name custom_keys)(type KiCad)(uri C:/Users/Eduardez/Desktop/Oledukey/OLEDU_KiCad/libs/custom_keys.pretty)(options "")(descr ""))
+)
