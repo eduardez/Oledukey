@@ -3249,8 +3249,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 5450 10850 5450
 Wire Wire Line
-	10850 4150 10850 4400
-Wire Wire Line
 	10850 4900 10850 5450
 Wire Wire Line
 	10250 4550 10850 4550
@@ -3942,8 +3940,6 @@ Wire Wire Line
 Connection ~ 24000 4900
 Wire Wire Line
 	22600 1850 24000 1850
-Wire Wire Line
-	10850 4500 10850 4550
 Connection ~ 1000 4550
 Wire Wire Line
 	1000 4550 1000 4900
@@ -4432,8 +4428,6 @@ Connection ~ 6650 12500
 Wire Wire Line
 	6350 12500 6400 12500
 Wire Wire Line
-	6650 14000 6650 13650
-Wire Wire Line
 	6400 14000 6650 14000
 Wire Wire Line
 	6100 14300 6100 14450
@@ -4557,8 +4551,6 @@ Wire Wire Line
 	4050 10950 5250 10950
 Connection ~ 4050 10950
 Wire Wire Line
-	5250 14000 5250 13250
-Wire Wire Line
 	5050 14000 5100 14000
 Connection ~ 5100 14000
 Wire Wire Line
@@ -4568,7 +4560,7 @@ Wire Wire Line
 	5050 13250 5100 13250
 Connection ~ 5250 13250
 Wire Wire Line
-	5250 13250 5250 12500
+	5250 13250 5250 12900
 Connection ~ 5100 13250
 Wire Wire Line
 	5100 13250 5250 13250
@@ -4576,7 +4568,7 @@ Wire Wire Line
 	5050 12500 5100 12500
 Connection ~ 5250 12500
 Wire Wire Line
-	5250 12500 5250 11750
+	5250 12500 5250 12150
 Connection ~ 5100 12500
 Wire Wire Line
 	5100 12500 5250 12500
@@ -4871,12 +4863,6 @@ F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    4450 12900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4600 12150 5300 12150
-Wire Wire Line
-	4600 12900 5300 12900
-Wire Wire Line
-	4600 13650 5300 13650
 Wire Wire Line
 	4600 14400 5300 14400
 Wire Wire Line
@@ -6160,4 +6146,47 @@ Wire Wire Line
 	1000 1900 1000 2650
 Wire Wire Line
 	2000 1850 2000 2650
+Wire Wire Line
+	2800 14400 2800 14000
+Connection ~ 2800 14000
+Wire Wire Line
+	4050 14400 4050 14000
+Wire Wire Line
+	10850 4500 10850 4550
+Wire Wire Line
+	10850 4150 10850 4550
+Connection ~ 4050 14000
+Wire Wire Line
+	5300 14400 5300 14000
+Wire Wire Line
+	5300 14000 5250 14000
+Connection ~ 5250 14000
+Wire Wire Line
+	5250 13250 5250 13650
+Wire Wire Line
+	4600 13650 5250 13650
+Connection ~ 5250 13650
+Wire Wire Line
+	5250 13650 5250 14000
+Wire Wire Line
+	5250 13650 5300 13650
+Wire Wire Line
+	4600 12900 5250 12900
+Connection ~ 5250 12900
+Wire Wire Line
+	5250 12900 5250 12500
+Wire Wire Line
+	5250 12900 5300 12900
+Wire Wire Line
+	6650 13650 6650 14000
+Connection ~ 6650 14000
+Wire Wire Line
+	6650 14000 6650 14400
+Wire Wire Line
+	4600 12150 5250 12150
+Connection ~ 5250 12150
+Wire Wire Line
+	5250 12150 5250 11750
+Wire Wire Line
+	5250 12150 5300 12150
 $EndSCHEMATC

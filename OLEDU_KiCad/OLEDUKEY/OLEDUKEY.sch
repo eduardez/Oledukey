@@ -501,7 +501,7 @@ ENC_SW_2
 Wire Wire Line
 	3650 7850 4400 7850
 Text GLabel 6850 6450 2    50   Output ~ 0
-ENC_B_1
+ENC_B_2
 Wire Wire Line
 	5800 6450 6850 6450
 Wire Wire Line
